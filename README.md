@@ -71,8 +71,8 @@ Try accessing the `return_value` identifier without prepending `$`.
 **What happens and why?**
 
 <details>
-    <summary>You Answer</summary>
-    ......
+    Da das Dollarzeichen $ neben "return_value" entfernt wurde, wird eine Zeichenkette angezeigt und nicht mehr der Wert der in "return_value" gespeicherten Variablen, denn das ist es, was nun angezeigt werden soll.
+
 </details>
 
 ### Task 3: Function-Identifiers
@@ -96,8 +96,9 @@ and pressing `enter`.
 ![Invoking the Plus Function](./assets/plus_func.png)
 
 <details>
-    <summary>Calling a Function</summary>
-    Include a screenshot of your function-call!
+<img width="332" alt="Task 3" src="https://github.com/user-attachments/assets/2cad1204-2490-47d3-881e-a121f53e0c87" />
+
+
 </details>
 
 ### Task 4: Handling Parameters
@@ -260,11 +261,8 @@ These examples demonstrate various fundamental operations in Bash scripting, inc
 
 **Write a function, combining at least 3 different of these primitives to a function**
 <details>
-    <summary>Your Function</summary>
-    
-```bash
-your code
-```
+<img width="326" alt="Task 4" src="https://github.com/user-attachments/assets/9cd233c2-25e8-439b-9bb2-fe633acc7573" />
+
 
 </details>
 
@@ -300,8 +298,11 @@ cat ./function
 
 **What happend?**
 <details>
-    <summary>Your Explaination</summary>
-    .....
+
+<img width="419" alt="Task functions" src="https://github.com/user-attachments/assets/0d10b714-39d0-451a-b4f2-e78f3f3cc2eb" />
+
+Man merkt, dass die Funktionen zunächst einzeln deklariert werden. Dann, in einem zweiten Schritt, wenn man „cat ./function“ ausführt, werden alle deklarierten Funktionen nacheinander angezeigt.
+
 
 </details>
 
@@ -343,8 +344,10 @@ You can use a shorthand within your calls to add this string as a prefix to any 
 
 **Look at task 6 again. What is the complete filepath of your functions file?**
 <details>
-    <summary>Your Answer</summary>
-    ....
+   <img width="329" alt="Task pwd" src="https://github.com/user-attachments/assets/37bc6fee-2370-4e08-8296-1aacbe6f96d6" />
+
+    the complete filepath of your function file:" /home/manou/functions "
+   
 </details>
 
 All filenames start with a `/`. 
@@ -367,8 +370,9 @@ cd /
 ```
 **Run `ls` again and insert the content here:**
 <details>
-    <summary>Your Answer</summary>
-    ....
+    <img width="453" alt="Task 9-1" src="https://github.com/user-attachments/assets/76cd5e89-aaf5-4af4-ab46-a5493ef78ccf" />
+
+  
 </details>
 
 Now navigate through your filesystem using `cd` and the name of the directory you want to set as your new `pwd`.
@@ -382,10 +386,9 @@ Use `rm` to delete a file and `rm -rf` to delete a directory.
 
 **Add a directory into your `~` dir and create an empty file in it. Delete the directory again.**
 <details>
-    <summary>Your Terminal Output</summary>
-```bash
-your terminal output
-```
+  
+<img width="432" alt="Task 9-2" src="https://github.com/user-attachments/assets/df44f281-6376-4f4f-ae12-13af57e819fa" />
+
 </details>
 
 ### Task 10: Managing Software
@@ -438,8 +441,8 @@ When you finished that tutorial, open a file in your home directory and manipula
 
 **How do you save a buffer to a new filename from within `vim`?**
 <details>
-    <summary>Your Answer</summary>
-    .....
+   :w new_filename
+
 </details>
  
 
